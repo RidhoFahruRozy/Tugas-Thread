@@ -93,4 +93,7 @@ private static final String PASS = ""; // Default XAMPP (kosong)
 ## 🖥️ Output Terminal
 
 ![Hasil](Output.png)
+
+Di bawah ini adalah output jika paket digudang sudah terkirim semua sehingga anda perlu mengisinya ulang jika ingin mengirimkan barang lagi
+![Hasil](Output2.png)
 ```
