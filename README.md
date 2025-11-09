@@ -76,12 +76,12 @@ Tugas_Antrian_Paket/
 │   └── mysql-connector-j-8.x.x.jar
 └── src/
     ├── db/
-    │   └── DBUtil.java            <-- (Isinya 'package db;')
+    │   └── DBUtil.java           
     ├── model/
-    │   └── Package.java           <-- (Isinya 'package model;')
+    │   └── Package.java           
     ├── dao/
-    │   └── PackageDAO.java        <-- (Isinya 'package dao;')
-    └── DeliveryApp.java           <-- (Tidak punya 'package')
+    │   └── PackageDAO.java      
+    └── DeliveryApp.java          
 ```
 
 ### 4\. Konfigurasi Koneksi
@@ -93,20 +93,6 @@ Buka file `src/db/DBUtil.java` dan pastikan `URL`, `USER`, dan `PASS` sudah sesu
 private static final String URL = "jdbc:mysql://localhost:3306/paket";
 private static final String USER = "root";
 private static final String PASS = ""; // Default XAMPP (kosong)
-```
-
-## 🚀 Cara Menjalankan
-
-Cara termudah adalah dengan membuka folder proyek di IDE (seperti VS Code atau IntelliJ) dan menjalankan file `src/DeliveryApp.java`.
-
-Jika Anda menjalankan dari terminal, Anda perlu meng-kompilasi dan menjalankan dengan menyertakan *classpath* ke driver JDBC:
-
-```bash
-# Kompilasi (dari folder 'src')
-javac -cp ".;../lib/mysql-connector-j-8.x.x.jar" *.java db/*.java model/*.java dao/*.java
-
-# Menjalankan (dari folder 'src')
-java -cp ".;../lib/mysql-connector-j-8.x.x.jar" DeliveryApp
 ```
 
 ## 🖥️ Output Terminal
