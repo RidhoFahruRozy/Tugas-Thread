@@ -2,12 +2,7 @@
 **Nama:** `[Muhammad Ridho Fahru Rozy]`
 **NIM:** `[F1D022076]`
 
-# 🚚 Proyek Antrian Pengiriman Paket (Java Thread + JDBC)
-
-Ini adalah program konsol Java sederhana yang mensimulasikan sistem antrian pengiriman paket.
-
-Program ini menggunakan **JDBC** untuk terhubung ke database MySQL (sebagai "gudang" paket) dan **Java `ExecutorService`** (Thread Pool) untuk bertindak sebagai "tim kurir" yang memproses paket-paket tersebut secara bersamaan (*concurrently*).
-
+# 🚚 Proyek Antrian Pengiriman Paket (Java Thread)
 ## 📜 Deskripsi
 
 Tujuan dari proyek ini adalah untuk mempraktikkan dua konsep utama dari materi kuliah:
