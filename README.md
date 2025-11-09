@@ -109,24 +109,7 @@ javac -cp ".;../lib/mysql-connector-j-8.x.x.jar" *.java db/*.java model/*.java d
 java -cp ".;../lib/mysql-connector-j-8.x.x.jar" DeliveryApp
 ```
 
-## 🖥️ Contoh Output Terminal
+## 🖥️ Output Terminal
 
-Jika semua berjalan lancar, output di terminal Anda akan terlihat seperti ini (urutan bisa berbeda-beda karena sifat *multithreading*):
-
-```
-=== PUSAT PENGIRIMAN DIBUKA ===
-Tim kurir dengan 3 worker siap bertugas...
-[pool-1-thread-1] MENGIRIM paket #1 ke Andi
-[pool-1-thread-2] MENGIRIM paket #2 ke Budi
-[pool-1-thread-3] MENGIRIM paket #3 ke Citra
-[pool-1-thread-1] SELESAI kirim paket #1.
-[pool-1-thread-1] MENGIRIM paket #4 ke Dewi
-[pool-1-thread-3] SELESAI kirim paket #3.
-[pool-1-thread-3] MENGIRIM paket #5 ke Eka
-=== SEMUA PAKET PENDING TELAH DIAMBIL ===
-Menunggu semua kurir menyelesaikan pengiriman terakhir...
-[pool-1-thread-2] SELESAI kirim paket #2.
-[pool-1-thread-1] SELESAI kirim paket #4.
-[pool-1-thread-3] SELESAI kirim paket #5.
-=== PUSAT PENGIRIMAN DITUTUP ===
+![Hasil](Output.png)
 ```
